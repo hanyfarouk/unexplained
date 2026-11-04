@@ -1,4 +1,0 @@
-E:\python-projects\unexplained>certutil -hashfile manuscript_styled.docx SHA256
-SHA256 hash of manuscript_styled.docx:
-fc6f3047686e6cf33a47cf22debad486d5044f7f4222d6a55ef60fdfb8f80220
-CertUtil: -hashfile command completed successfully.
