@@ -1,0 +1,382 @@
+{
+  "schema_version": "1.1",
+  "ingest_version": "1.1",
+  "source_file": "manuscript_styled.docx",
+  "source_sha256": "fc6f3047686e6cf33a47cf22debad486d5044f7f4222d6a55ef60fdfb8f80220",
+  "ingest_status": "OK",
+  "criticals": 0,
+  "frontmatter": {
+    "book-name": [
+      "UNEXPLAINED"
+    ],
+    "book-name-full": [
+      "UNEXPLAINED"
+    ],
+    "subtitle-name": [
+      "64 ILLUSTRATED CASES",
+      "AT THE EDGE OF KNOWLEDGE"
+    ],
+    "author": [
+      "HANY FAROUK"
+    ],
+    "copyright": [
+      "Copyright © 2026 Hany Farouk",
+      "All rights reserved.",
+      "No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, or otherwise, without prior written permission from the copyright holder, except for brief quotations embodied in critical reviews and other uses permitted by law.",
+      "First Edition: 2026",
+      "This book is a work of nonfiction created for informational and educational purposes. The cases, evidence, scientific findings, historical accounts, and hypotheses presented reflect the state of knowledge available at the time of writing. Because scientific and historical understanding can change, some interpretations or conclusions discussed in this book may be revised as new evidence emerges."
+    ],
+    "dedication-line": [
+      "For those who look at the night sky and ask questions"
+    ],
+    "welcome": [
+      "WELCOME TO THE EDGE OF KNOWLEDGE"
+    ],
+    "toc-title": [
+      "THE SIXTY-FOUR CASES"
+    ],
+    "intro-title": [
+      "INTRODUCTION"
+    ]
+  },
+  "introduction": [
+    {
+      "type": "body-text",
+      "text": "There is a particular kind of discomfort that feels almost pleasurable."
+    },
+    {
+      "type": "body-text",
+      "text": "You are reading about something — a signal from deep space, a particle that behaves differently when watched, a man found dead with no name and no explanation — and you reach the end."
+    },
+    {
+      "type": "body-text",
+      "text": "You wait for the resolution."
+    },
+    {
+      "type": "body-text",
+      "text": "It does not come."
+    },
+    {
+      "type": "body-text",
+      "text": "And instead of frustration, something else appears."
+    },
+    {
+      "type": "body-text",
+      "text": "A quiet, disorienting realization:"
+    },
+    {
+      "type": "body-text",
+      "text": "The explanation is missing — and no one knows how to complete it."
+    },
+    {
+      "type": "body-text",
+      "text": "This book was built for that moment."
+    },
+    {
+      "type": "stanza_break"
+    },
+    {
+      "type": "body-text",
+      "text": "These sixty-four cases were not chosen because they are the strangest things ever recorded — though some of them are."
+    },
+    {
+      "type": "body-text",
+      "text": "They were chosen because they are genuinely unresolved."
+    },
+    {
+      "type": "body-text",
+      "text": "Not misunderstood."
+    },
+    {
+      "type": "body-text",
+      "text": "Not waiting for a better explanation."
+    },
+    {
+      "type": "body-text",
+      "text": "Not secretly solved and poorly communicated."
+    },
+    {
+      "type": "body-text",
+      "text": "Unresolved."
+    },
+    {
+      "type": "body-text",
+      "text": "The physicists are still arguing."
+    },
+    {
+      "type": "body-text",
+      "text": "The archaeologists are still measuring."
+    },
+    {
+      "type": "body-text",
+      "text": "The mathematicians have been staring at the same problem for decades — and the problem is not moving."
+    },
+    {
+      "type": "body-text",
+      "text": "You will not find answers here."
+    },
+    {
+      "type": "body-text",
+      "text": "That is not a limitation."
+    },
+    {
+      "type": "body-text",
+      "text": "It is the point."
+    },
+    {
+      "type": "body-text",
+      "text": "What you will find instead is something more precise:"
+    },
+    {
+      "type": "body-text",
+      "text": "The exact places where our best tools stop working."
+    },
+    {
+      "type": "body-text",
+      "text": "Where equations remain valid — but what they describe stops making intuitive sense."
+    },
+    {
+      "type": "body-text",
+      "text": "Where the evidence is real — and the conclusion is missing."
+    },
+    {
+      "type": "body-text",
+      "text": "This is where knowledge has an edge."
+    },
+    {
+      "type": "body-text",
+      "text": "And this book walks you along it."
+    },
+    {
+      "type": "body-text",
+      "text": "Some of these cases may one day be resolved."
+    },
+    {
+      "type": "body-text",
+      "text": "New data will emerge."
+    },
+    {
+      "type": "body-text",
+      "text": "Better explanations will replace incomplete ones."
+    },
+    {
+      "type": "body-text",
+      "text": "That is how knowledge advances."
+    },
+    {
+      "type": "body-text",
+      "text": "But at the moment you are reading this, each case in this book marks a real boundary — a place where explanation has not yet caught up with observation."
+    },
+    {
+      "type": "body-text",
+      "text": "This is not a collection of permanent mysteries."
+    },
+    {
+      "type": "body-text",
+      "text": "It is a snapshot of the edge — as it exists now."
+    },
+    {
+      "type": "stanza_break"
+    },
+    {
+      "type": "body-text",
+      "text": "A word about how these cases are presented."
+    },
+    {
+      "type": "body-text",
+      "text": "Each one begins with what happened — before interpretation, before theory."
+    },
+    {
+      "type": "body-text",
+      "text": "Then the evidence."
+    },
+    {
+      "type": "body-text",
+      "text": "Then the crack in the explanation."
+    },
+    {
+      "type": "body-text",
+      "text": "Then the theories — presented without a verdict, because no verdict exists."
+    },
+    {
+      "type": "body-text",
+      "text": "And finally, a question."
+    },
+    {
+      "type": "body-text",
+      "text": "Not to provoke confusion, but to reflect the honest state of the case:"
+    },
+    {
+      "type": "body-text",
+      "text": "Not answered — but not empty either."
+    },
+    {
+      "type": "stanza_break"
+    },
+    {
+      "type": "body-text",
+      "text": "The tone throughout is deliberate."
+    },
+    {
+      "type": "body-text",
+      "text": "It is not here to frighten you."
+    },
+    {
+      "type": "body-text",
+      "text": "It is not here to convince you of anything unusual."
+    },
+    {
+      "type": "body-text",
+      "text": "Skepticism is not only welcome — it is necessary."
+    },
+    {
+      "type": "body-text",
+      "text": "Because the cases that linger are not the ones that reject reason."
+    },
+    {
+      "type": "body-text",
+      "text": "They are the ones that follow it completely…"
+    },
+    {
+      "type": "body-text",
+      "text": "and still arrive at something unresolved."
+    },
+    {
+      "type": "stanza_break"
+    },
+    {
+      "type": "body-text",
+      "text": "Some of these mysteries exist at the smallest scales:"
+    },
+    {
+      "type": "body-text",
+      "text": "Particles that behave differently when observed."
+    },
+    {
+      "type": "body-text",
+      "text": "Some exist at the largest:"
+    },
+    {
+      "type": "body-text",
+      "text": "Galaxies moving toward something we cannot see."
+    },
+    {
+      "type": "body-text",
+      "text": "Some are human:"
+    },
+    {
+      "type": "body-text",
+      "text": "A town that danced without stopping."
+    },
+    {
+      "type": "body-text",
+      "text": "A body identified only by what was missing."
+    },
+    {
+      "type": "body-text",
+      "text": "A mind returning briefly before death."
+    },
+    {
+      "type": "body-text",
+      "text": "Some are mathematical:"
+    },
+    {
+      "type": "body-text",
+      "text": "Problems so simple they can be explained in seconds — and still remain unproven after decades."
+    },
+    {
+      "type": "body-text",
+      "text": "They share one characteristic."
+    },
+    {
+      "type": "body-text",
+      "text": "They are all real."
+    },
+    {
+      "type": "body-text",
+      "text": "Every case in this book has been documented, studied, and taken seriously by experts."
+    },
+    {
+      "type": "body-text",
+      "text": "And none of them ends with a complete answer."
+    },
+    {
+      "type": "body-text",
+      "text": "You do not need to read this book in order."
+    },
+    {
+      "type": "body-text",
+      "text": "Each case stands on its own."
+    },
+    {
+      "type": "body-text",
+      "text": "But if you do read it sequentially, something else begins to appear:"
+    },
+    {
+      "type": "body-text",
+      "text": "The mysteries are not isolated."
+    },
+    {
+      "type": "body-text",
+      "text": "They echo."
+    },
+    {
+      "type": "body-text",
+      "text": "A pattern in physics reappears in mathematics."
+    },
+    {
+      "type": "body-text",
+      "text": "A question in biology returns in neuroscience."
+    },
+    {
+      "type": "body-text",
+      "text": "A gap in observation mirrors a gap in logic."
+    },
+    {
+      "type": "body-text",
+      "text": "This is not accidental."
+    },
+    {
+      "type": "stanza_break"
+    },
+    {
+      "type": "body-text",
+      "text": "You can read one case before sleep."
+    },
+    {
+      "type": "body-text",
+      "text": "Let the question remain open."
+    },
+    {
+      "type": "body-text",
+      "text": "And see what your mind does with it."
+    },
+    {
+      "type": "body-text",
+      "text": "Or you can follow the entire sequence—"
+    },
+    {
+      "type": "body-text",
+      "text": "and watch the boundaries of certainty shift, one case at a time."
+    },
+    {
+      "type": "stanza_break"
+    },
+    {
+      "type": "body-text",
+      "text": "Either way—"
+    },
+    {
+      "type": "body-text",
+      "text": "welcome to the edge."
+    },
+    {
+      "type": "body-text",
+      "text": "The answers are not here."
+    },
+    {
+      "type": "body-text",
+      "text": "But the questions remain."
+    }
+  ]
+}

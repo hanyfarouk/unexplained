@@ -1,0 +1,18 @@
+
+Fonts Packaged
+
+- Name: EBGaramond-Regular; Type: TrueType, File Name: EBGaramond-Regular.ttf
+
+- Name: EBGaramond-Medium; Type: TrueType, File Name: EBGaramond-Medium.ttf
+
+- Name: EBGaramond-Italic; Type: TrueType, File Name: EBGaramond-Italic.ttf
+
+- Name: EBGaramond-SemiBold; Type: TrueType, File Name: EBGaramond-SemiBold.ttf
+
+- Name: EBGaramond-Bold; Type: TrueType, File Name: EBGaramond-Bold.ttf
+
+- Name: LibreBaskerville-Bold; Type: TrueType, File Name: LibreBaskerville-Bold.ttf
+
+- Name: LibreBaskerville-Regular; Type: TrueType, File Name: LibreBaskerville-Regular.ttf
+
+

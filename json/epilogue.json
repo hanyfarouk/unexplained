@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.1",
+  "ingest_version": "1.1",
+  "source_file": "manuscript_styled.docx",
+  "source_sha256": "fc6f3047686e6cf33a47cf22debad486d5044f7f4222d6a55ef60fdfb8f80220",
+  "ingest_status": "OK",
+  "criticals": 0,
+  "title": "EPILOGUE",
+  "groups": [
+    [
+      "ONE TRUTH. MANY FACES."
+    ],
+    [
+      "SOME MESSENGERS REMAIN UNKNOWN.",
+      "SOME DOORS REMAIN CLOSED.",
+      "SOME SYSTEMS HIDE THEIR STRUCTURE."
+    ],
+    [
+      "WE LOOKED OUTWARD.",
+      "WE DO NOT KNOW WHAT LIES BEHIND US."
+    ],
+    [
+      "YOU HAVE REACHED THE EDGE."
+    ],
+    [
+      "IT DOES NOT END HERE.",
+      "IT ONLY BECOMES TOO DARK TO SEE FURTHER."
+    ]
+  ]
+}
