@@ -1,0 +1,67 @@
+========================================================================
+UNEXPLAINED build_book.py --selftest
+========================================================================
+[INFO] ENV-REPORTLAB: 4.4.9
+[INFO] ENV-PYPDF: 6.6.0
+[INFO] ENV-PILLOW: 11.3.0
+[INFO] ENV-FONTTOOLS: 4.62.1
+[PASS] T01 runtime environment
+        reportlab 4.4.9 internals verified
+[PASS] T02 geometry constants
+        11/11 geometry constants
+[PASS] T03 tracked-line geometry
+        tracked centering/width verified on 4 lines; all within 0.05pt
+[PASS] T04 DeviceGray emission
+        DeviceGray g/G ops only (rg present: False); stateful parser clean: True
+[PASS] T05 synthetic BoldItalic shear
+        shear Tm tan=0.21256; restore at x+W exact; 3 lines, zero drift, leading exact
+[PASS] T06 recto cap alignment (PDF truth)
+        plain paragraph: OK; rich paragraph: OK; ListItemFlowable: OK; TrackedLineFlowable: OK; KeepTogether(header+item): OK
+[INFO] WIDOW-GLUED: Case 1 t1: NBSP before 'tail'
+[INFO] WIDOW-ACCEPTED: Case 1 t2: kept 1-word last line (companion 'extraordinarily' >12 chars, prev line 25% full)
+[INFO] WIDOW-GLUED: Case 1 t3: NBSP before 'tailword'
+[PASS] T07 Widow-Ladder v2.3
+        glue plain: OK; guard accept: OK; glue across runs: OK; authored \n preserved: OK; single line untouched: OK; split word = one logical word: OK
+[PASS] T08 KeepTogether behavior
+        header+item pushed together to page 2 ([2]/[2]); single-line first item protects second item ([2]/[2]/[2])
+[PASS] T09 Page-6 decision table
+        D0: OK; D1-overflow-proof: OK; Q-before-CP3: OK; no-proof-rejects: OK; sc-not-on-4-rejects: OK; items-on-3-rejects: OK; pages-5-rejects: OK
+[CRITICAL] CRITICAL-COLORSPACE: bad1: forbidden rg operator [1, 0, 0]
+[CRITICAL] CRITICAL-COLORSPACE: bad2 XObject /FormXob.F1: forbidden rg operator [0, 1, 0]
+[CRITICAL] CRITICAL-COLORSPACE: bad3: forbidden rg operator [0, 0, 0]
+[PASS] T10 DeviceGray parser
+        all-gray doc passes (0 crit); rg rejected (1); nested Form rgb rejected (1); alpha ExtGState rejected (1)
+[PASS] T11 TOC dot leader
+        dots present=True, geometry ok=True
+[PASS] T12 image identity
+        DeviceGray=True, dims=True, pixel-identical=True, parser clean=True
+[PASS] T13 text-integrity round-trip
+        text match=True, authored break preserved=True
+[PASS] T14 crosshair cap-middle position (PDF truth)
+        +0.000pt off cap-mid, cx-ok=True; +0.000pt off cap-mid, cx-ok=True
+[INFO] WIDOW-GLUED: Case 1 t15: NBSP before 'tailword'
+[PASS] T15 theory lead bold / body regular
+        markup=True, evidence-plain=True, display=True, glue-keeps-bold=True, pdf-fonts=True, lead-face=EBGaramond-Bold
+[PASS] T16 copyright page wrap + page bounds
+        wrap=1L/1L/4L/1L/5L bounds=True first-baseline=252.0 last=115.0 lines=12
+------------------------------------------------------------------------
+ENGINE TESTS: 16/16 passed
+------------------------------------------------------------------------
+INPUT PREFLIGHT (informational in selftest; gate is --preflight):
+
+----- PREFLIGHT -----
+[INFO] HASH-OK: manuscript_styled.docx == frozen SHA-256
+[INFO] OVERRIDE-APPLIED: case 11: big_word_pt=45 (Approved title-size exception (A Connection))
+[INFO] OVERRIDE-APPLIED: case 57: big_word_pt=45 (Approved title-size exception (An Explosion))
+[INFO] STRUCTURE-OK: 64 cases, 8 ordered sections each, 3 see-also + 2 search terms per case
+[INFO] AGGREGATES: case items total=4267 body-text=3244 evidence-item=393 search-term=128 see-also=192 theory-item=310; multiline=20; runs=20
+[INFO] SYNTH-UNUSED: no bold+italic run in the manuscript; synthetic BoldItalic exercised by --selftest only
+[INFO] INTRO-OK: introduction: 80 body, 6 stanza breaks
+[INFO] FONTS-OK: 7 faces registered; per-role cmap coverage verified (declared charsets + engine-derived charsets + NBSP)
+[CRITICAL] CRITICAL-BIGWORD-WIDTH: case 8: big word 'An Equation' measures 332.7pt at 50pt > text frame 331.2pt; approved fix is a 45pt override (measures 299.4pt)
+[CRITICAL] CRITICAL-BIGWORD-WIDTH: case 26: big word 'A Settlement' measures 341.4pt at 50pt > text frame 331.2pt; approved fix is a 45pt override (measures 307.2pt)
+[INFO] PREFLIGHT-RESULT: FAIL (2 critical)
+  [CRITICAL] CRITICAL-BIGWORD-WIDTH: case 8: big word 'An Equation' measures 332.7pt at 50pt > text frame 331.2pt; approved fix is a 45pt override (measures 299.4pt)
+  [CRITICAL] CRITICAL-BIGWORD-WIDTH: case 26: big word 'A Settlement' measures 341.4pt at 50pt > text frame 331.2pt; approved fix is a 45pt override (measures 307.2pt)
+  FAIL — the full build will refuse to run until these are resolved (this is the fail-closed gate working).
+========================================================================

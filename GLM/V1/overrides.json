@@ -1,0 +1,14 @@
+{
+  "schema": "unexplained-overrides/1.0",
+  "source_sha256": "fc6f3047686e6cf33a47cf22debad486d5044f7f4222d6a55ef60fdfb8f80220",
+  "cases": {
+    "11": {
+      "big_word_pt": 45,
+      "reason": "Approved title-size exception (A Connection)"
+    },
+    "57": {
+      "big_word_pt": 45,
+      "reason": "Approved title-size exception (An Explosion)"
+    }
+  }
+}
