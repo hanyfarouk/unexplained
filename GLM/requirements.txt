@@ -1,7 +1,0 @@
-# UNEXPLAINED — pinned build environment (tested versions, recorded by build_book.py)
-# The engine's runtime check (CRITICAL-ENV) verifies the reportlab internals it
-# relies on; if your installed 4.x differs and the check fails, install these.
-reportlab==4.4.9
-pypdf==6.6.0
-Pillow==11.3.0
-fonttools==4.62.1
